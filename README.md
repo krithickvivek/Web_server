@@ -26,7 +26,8 @@ content= """
 <head>
 </head>
 <body>
-<h1>Welcome</h1>
+<h1> Krithick Vivekananda </h1>
+<h1> Artifical Intelligence and Machine Learning </h1>
 </body>
 </html>
 """
@@ -59,7 +60,8 @@ content= """
 <head>
 </head>
 <body>
-<h1>Welcome</h1>
+<h1> Krithick Vivekananda </h1>
+<h1> Artifical Intelligence and Machine Learning </h1>
 </body>
 </html>
 """
