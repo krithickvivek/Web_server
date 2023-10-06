@@ -1,6 +1,6 @@
 # Developing a Simple Webserver
-### Name: Krithick Vivekananda 
-### Ref.No: 23009445
+###### Name: Krithick Vivekananda 
+###### Ref.No: 23009445
 # AIM:
 
 Develop a webserver to display about top five web application development frameworks.
@@ -28,9 +28,32 @@ Serving the HTML pages.
 Testing the webserver
 # PROGRAM:
 ```python
+from http.server import HTTPServer,BaseHTTPRequestHandler
+
+content= """
+<html>
+<head>
+</head>
+<body>
+<h1>Welcome</h1>
+</body>
+</html>
+"""
+
+class HelloHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header("Content-type","text/html; charset=utf-8")
+        self.end_headers()
+        self.wfile.write(content.encode())
+
+server_address = ('',80)
+httpd=HTTPServer(server_address,HelloHandler)
+httpd.serve_forever()
 
 ```
 # OUTPUT:
+![Alt text](webserver.jpg)
 
 # RESULT:
 
