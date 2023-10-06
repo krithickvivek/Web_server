@@ -27,7 +27,7 @@ content= """
 </head>
 <body>
 <h1> Krithick Vivekananda </h1>
-<h1> Artifical Intelligence and Machine Learning </h1>
+<h1> Artificial Intelligence and Machine Learning </h1>
 </body>
 </html>
 """
@@ -61,7 +61,7 @@ content= """
 </head>
 <body>
 <h1> Krithick Vivekananda </h1>
-<h1> Artifical Intelligence and Machine Learning </h1>
+<h1> Artificial Intelligence and Machine Learning </h1>
 </body>
 </html>
 """
